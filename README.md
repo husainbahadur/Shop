@@ -1,11 +1,15 @@
 Shop, Python Ordering System
+
 A command-line ordering system built in Python, simulating a fast food shop where a customer can order a Main Meal, Snack, and Drink and get a running total. This was a personal project I built and improved across 4 versions to practice core Python concepts.
+
 Language: Python
 Latest version: Shop3.py
+
 What the project does
 The program runs in the terminal and walks the user through ordering items from a menu. It asks if they want a Main Meal, a Snack, and a Drink, shows the available options, takes their choice, and keeps a running total of what they've ordered. At the end it prints their total cost and says goodbye.
 How it evolved, version by version
 Shop.py, The starting point
+
 This was the first version. It worked, but it was all written in one block from top to bottom, no functions, no structure, just sequential if statements and input() calls. The logic for each menu item (Main Meal, Snack, Drink) was just repeated three times in a row.
 The biggest problem was that the total wasn't actually tracked properly, each section just printed the cost of that individual item rather than adding everything up. So by the end you didn't actually get a proper total, you just got three separate prices printed out.
 It did the job for a first attempt but it was messy and hard to follow.
